@@ -89,7 +89,7 @@ module.exports = async function(req, res) {
     currency:        'CLP',
     amount:          String(Math.round(Number(amount))),
     email:           email,
-    paymentMethod:   '9',
+    paymentMethod:   '1',,
     urlConfirmation: host + '/api/confirmar-pago-flow',
     urlReturn:       host + '/pago.html'
   };
